@@ -1,0 +1,18 @@
+/* component/selectCustom/selectCustom.wxss */
+@import "/app.wxss";
+.customList{
+  padding:10px;
+  display: flex;
+  flex-wrap: wrap;
+  width:calc(100% - 20px);
+  height:70px;
+  overflow-y:scroll;
+}
+.customItem{
+  width:33.3%;
+}
+.customImg{
+  padding: 0 10px;
+  width:70px;
+  height:70px;
+}

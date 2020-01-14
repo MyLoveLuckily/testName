@@ -1,0 +1,15 @@
+<view>
+  <view>
+  <image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4075510848,3148597249&fm=26&gp=0.jpg"></image>
+  </view>
+  <view class='productName'>
+    2020新款港味慵懒针织毛衣百搭套头长袖上衣
+  </view>
+  <view class='productPrice'>
+    ￥99
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__bd">已售59件</view>
+    <view class="weui-cell__ft">128喜欢</view>
+  </view>
+</view>

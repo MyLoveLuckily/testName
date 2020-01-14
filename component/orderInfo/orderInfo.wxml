@@ -1,0 +1,26 @@
+<view class='orderInfo'>
+  <view class='orderTitle'>订单信息</view>
+  <view class="weui-cell orderInfoItem">
+    <view class="weui-cell__hd">订单编号:</view>
+    <view class="weui-cell__bd cellBd">1256712525461</view>
+    <view class="weui-cell__ft">
+      <view class="copyText">复制</view>
+    </view>
+  </view>
+  <view class="weui-cell orderInfoItem">
+    <view class="weui-cell__hd">创建时间:</view>
+    <view class="weui-cell__bd cellBd">2020-01-13 10-09-13</view>
+  </view>
+  <view class="weui-cell orderInfoItem">
+    <view class="weui-cell__hd">付款时间:</view>
+    <view class="weui-cell__bd cellBd">2020-01-13 10-12-15</view>
+  </view>
+  <view class="weui-cell orderInfoItem">
+    <view class="weui-cell__hd">发货时间:</view>
+    <view class="weui-cell__bd cellBd">2020-01-13 10-09-13</view>
+  </view>
+  <view class="weui-cell orderInfoItem">
+    <view class="weui-cell__hd">成交时间:</view>
+    <view class="weui-cell__bd cellBd">2020-01-13 10-12-15</view>
+  </view>
+</view>

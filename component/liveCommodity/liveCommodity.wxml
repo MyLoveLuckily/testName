@@ -1,0 +1,35 @@
+ <view class="weui-panel weui-panel_access">
+
+    <view class="weui-panel__bd liveCommodity">
+        <view class="weui-media-box weui-media-box_text">
+            <view>
+              <image class='img' src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=727730564,733164992&fm=26&gp=0.jpg"></image>
+            </view>
+            <view class="weui-media-box__title weui-media-box__title_in-text fontName">正在直播</view>
+             <view class="weui-cell cellPd">
+              <view class="weui-cell__hd fontName">{{name}}</view>
+              <view class="weui-cell__bd weui-cell_primary"></view>
+              <view class="weui-cell__ft">￥{{price}}</view>
+            </view>
+          <view class="weui-flex">
+                  <view class="weui-flex__item">
+                    <view class="placeholder">
+                      <view style='background:blue'class="colorBtn"></view>
+                      <view style='background:red'class="colorBtn"></view>
+                    </view>
+                  </view>
+                  <view class="weui-flex__item">
+                    <view class="placeholder">
+                      <view class="sizeBtn">S</view>
+                      <view class="sizeBtn">M</view>
+                   </view>
+                  </view>
+                  <view class="weui-flex__item">
+                    <view class="placeholder">
+                      <button class="weui-btn mini-btn buyBtn" type="primary" size="mini" bindtap="changeName">立即购买</button>
+                   </view>
+                  </view>
+                </view>
+        </view>
+    </view>
+</view>

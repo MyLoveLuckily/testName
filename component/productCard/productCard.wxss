@@ -1,0 +1,6 @@
+/* component/productCard/productCard.wxss */
+@import '/app.wxss';
+.img{
+  height: 600rpx;
+  width: 100%;
+}

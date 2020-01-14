@@ -1,0 +1,81 @@
+/* component/skuMore/skuMore.wxss */
+@import '/app.wxss';
+.weui-demo-dialog{
+  visibility:hidden;
+  opacity:0;
+  transition:all .3s;
+}
+.weui-half-screen-dialog{
+  transition:all .3s;
+  transform:translateY(100%);
+}
+.weui-demo-dialog_show{
+  visibility:visible;
+  opacity:1;
+}
+.weui-demo-dialog_show .weui-half-screen-dialog{
+    transform:translateY(0);
+}
+.product{
+  margin:20px 0;
+}
+.productImg{
+  width:75px;
+  height:75px;
+}
+.productName{
+  font-size:16px;
+  font-weight: bold;
+  margin-left:15px;
+}
+.productPrice{
+  font-size:12px;
+  margin-left:15px;
+}
+.cellpPd{
+  padding:0;
+}
+.colorBlock{
+  margin:10px 0;
+}
+.colorText{
+  margin:10px 0;
+}
+.colorView{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  height:70px;
+  overflow-y:scroll;
+}
+.colorItem{
+  width:33.3%;
+}
+.colorBtn{
+  height:30px;
+  width:80%!important;
+  font-size:12px!important;
+  line-height: 30px!important;
+}
+.sizeBlock{
+  margin:10px 0;
+}
+.sizeText{
+  margin:10px 0;
+}
+.sizeView{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  height:70px;
+  overflow-y:scroll;
+}
+.sizeItem{
+  width:25%;
+}
+.sizeBtn{
+  height:30px;
+  width:80%!important;
+  font-size:12px!important;
+  line-height: 30px!important;
+}

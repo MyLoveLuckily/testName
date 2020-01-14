@@ -1,0 +1,10 @@
+/* component/productDetail/productDetail.wxss */
+@import "/app.wxss";
+.productName{
+  padding-left:16px;
+  font-size: 14px;
+}
+.productPrice{
+  padding-left:16px;
+  font-weight: bold;
+}

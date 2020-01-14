@@ -1,0 +1,14 @@
+<view class='myHeader'>
+  <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <image class="weui-media-box__thumb portrait" src="./默认头像.png" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg mgLeft">
+      <view class="weui-media-box__title">用户名称</view>
+      <view class="weui-media-box__desc">用户签名</view>
+    </view>
+  </navigator>  
+</view>
+<view class='myBody'>
+  <mylist></mylist>
+</view>

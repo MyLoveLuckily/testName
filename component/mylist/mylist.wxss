@@ -1,0 +1,9 @@
+/* component/mylist/mylist.wxss */
+@import '/app.wxss';
+.img{
+  width:20px;
+  height: 20px;
+}
+.myItem{
+  padding-left: 10px;
+}

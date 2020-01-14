@@ -1,0 +1,19 @@
+/* component/my/my.wxss */
+@import '/app.wxss';
+.portrait{
+  width:50px;
+  height:50px;
+  padding:10px;
+  border:1px solid gray;
+  border-radius:8px;
+}
+.mgLeft{
+  margin-left:30px;
+}
+.myHeader{
+  margin: 20px 0 30px 30px;
+  height:80px;
+}
+.myBody{
+  height:calc(100% - 80px);
+}

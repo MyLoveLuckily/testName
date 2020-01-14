@@ -1,0 +1,103 @@
+ <view class="weui-demo-dialog weui-demo-dialog_show">
+          <view class="weui-mask" bindtap="closeDialog"></view>
+          <view class="weui-half-screen-dialog " style='height:400px;' catchtap="stopEvent">
+            <view class="weui-half-screen-dialog__hd" style="height:100px">
+             <view class="weui-cell cellpPd">
+                <view class="weui-cell__hd ">
+                  <image class='productImg' src='https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2042828387,1143779147&fm=26&gp=0.jpg'></image>
+                </view>
+                <view class="weui-cell__bd ">
+                  <view class='productName'>加绒卫衣</view>
+                  <view class='productPrice'>￥99</view>
+                </view>
+              </view>
+            </view>
+            <view class="weui-half-screen-dialog__bd">
+              <view class='colorBlock'>
+                <view class='colorText'>颜色</view>
+                <view class='colorView'>
+                  <view class='colorItem'>
+                    <button size='mini' class='colorBtn' bindtap='getColor' data-ind='0'>蓝色</button>
+                  </view>
+                  <view class='colorItem'>
+                    <button size='mini' class='colorBtn'>红色</button>
+                  </view> 
+                  <view class='colorItem'>
+                    <button size='mini' class='colorBtn'>黄色</button>
+                  </view>
+                   <view class='colorItem'>
+                    <button size='mini' class='colorBtn'>黄色</button>
+                  </view>
+                   <view class='colorItem'>
+                    <button size='mini' class='colorBtn'>蓝色</button>
+                  </view>
+                  <view class='colorItem'>
+                    <button size='mini' class='colorBtn'>红色</button>
+                  </view> 
+                  <view class='colorItem'>
+                    <button size='mini' class='colorBtn'>黄色</button>
+                  </view>
+                   <view class='colorItem'>
+                    <button size='mini' class='colorBtn'>黄色</button>
+                  </view>
+                   <view class='colorItem'>
+                    <button size='mini' class='colorBtn'>蓝色</button>
+                  </view>
+                  <view class='colorItem'>
+                    <button size='mini' class='colorBtn'>红色</button>
+                  </view> 
+                  <view class='colorItem'>
+                    <button size='mini' class='colorBtn'>黄色</button>
+                  </view>
+                   <view class='colorItem'>
+                    <button size='mini' class='colorBtn'>黄色</button>
+                  </view>
+                </view>
+              </view>
+               <view class='sizeBlock'>
+                <view class='sizeText'>尺码</view>
+                 <view class='sizeView'>
+                  <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>S</button>
+                  </view>
+                  <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>M</button>
+                  </view> 
+                  <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>L</button>
+                  </view>
+                   <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>XL</button>
+                  </view>
+                   <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>L</button>
+                  </view>
+                   <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>XL</button>
+                  </view>
+                   <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>L</button>
+                  </view>
+                   <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>XL</button>
+                  </view>
+                   <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>L</button>
+                  </view>
+                   <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>XL</button>
+                  </view>
+                   <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>L</button>
+                  </view>
+                   <view class='sizeItem'>
+                    <button size='mini' class='sizeBtn'>XL</button>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="weui-half-screen-dialog__ft cellpPd">
+                <button type="primary" class="weui-btn">选好了</button>
+            </view>
+          </view>
+        </view>

@@ -1,0 +1,105 @@
+<view class="weui-demo-dialog weui-demo-dialog_show">
+  <view class="weui-mask" bindtap="closeDialog"></view>
+  <view class="weui-half-screen-dialog" catchtap="stopEvent">
+    <view class="weui-half-screen-dialog__hd">
+      <view class="weui-half-screen-dialog__hd__side">
+        <view>已选商品</view>
+      </view>
+      <view class="weui-half-screen-dialog__hd__main">
+      </view>
+      <view class="weui-half-screen-dialog__hd__side">
+        <view class='clear'>
+          <image class='clearImg' src="./删除.png"></image>
+          <view class='clearText'>清空</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-half-screen-dialog__bd">
+      <view class="weui-cell cellpPd">
+        <view class="weui-cell__bd ">
+          <view class='product'>
+            <view class='productImg'>
+              <image class='productImage'src='https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=727730564,733164992&fm=26&gp=0.jpg'>
+              </image>
+            </view>
+            <view class='productText divWrap'>加绒卫衣加绒卫衣加绒卫衣加</view>
+          </view>
+        </view>
+        <view class="weui-cell__ft">
+          <view class='inlineBlock verTop'>￥99</view>
+          <view class='inlineBlock'>
+            <view class='inlineBlock'>
+              <image class="reduceBtn" src='./减少.png'></image>
+            </view>
+            <view class='inlineBlock verTop'>1</view>
+            <view class='inlineBlock'>
+              <image class="addBtn" src='./添加.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+        <view class="weui-cell cellpPd">
+        <view class="weui-cell__bd ">
+          <view class='product'>
+            <view class='productImg'>
+              <image class='productImage'src='https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=727730564,733164992&fm=26&gp=0.jpg'>
+              </image>
+            </view>
+            <view class='productText divWrap'>加绒卫衣加绒卫衣加绒卫衣加</view>
+          </view>
+        </view>
+        <view class="weui-cell__ft">
+          <view class='inlineBlock verTop'>￥99</view>
+          <view class='inlineBlock'>
+            <view class='inlineBlock'>
+              <image class="reduceBtn" src='./减少.png'></image>
+            </view>
+            <view class='inlineBlock verTop'>1</view>
+            <view class='inlineBlock'>
+              <image class="addBtn" src='./添加.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+        <view class="weui-cell cellpPd">
+        <view class="weui-cell__bd ">
+          <view class='product'>
+            <view class='productImg'>
+              <image class='productImage'src='https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=727730564,733164992&fm=26&gp=0.jpg'>
+              </image>
+            </view>
+            <view class='productText divWrap'>加绒卫衣加绒卫衣加绒卫衣加</view>
+          </view>
+        </view>
+        <view class="weui-cell__ft">
+          <view class='inlineBlock verTop'>￥99</view>
+          <view class='inlineBlock'>
+            <view class='inlineBlock'>
+              <image class="reduceBtn" src='./减少.png'></image>
+            </view>
+            <view class='inlineBlock verTop'>1</view>
+            <view class='inlineBlock'>
+              <image class="addBtn" src='./添加.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+      <view class="weui-cell cellpPd">
+        <view class="weui-cell__bd">
+          <view class='inlineBlock'>
+            <image class="shoppingCarImg" src='./购物车.png'></image>
+            <view class="weui-badge" style="position: relative;top:-26px;right:8px;">3</view>
+          </view>
+          <view class='orderPrice'>
+            ￥297
+          </view>
+        </view>
+        <view class="weui-cell__ft">
+          <view class='balance'>
+            <button type='primary'size='mini' class='balanceBtn'>去结算</button>
+          </view>
+        </view>
+    </view>
+    </view>
+</view>

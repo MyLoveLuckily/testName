@@ -1,0 +1,37 @@
+<view class="page">
+  <view class="page__hd">
+    <button class="weui-btn" type="primary" bindtap="add">添加地址</button>
+  </view>
+  <view class='page_bd'>
+    <view wx:for="{{addressList}}" we:key="{{item}}" style='border-bottom:20rpx solid #dddddd;'>
+      <view class="weui-form-preview__bd">
+        <view class="weui-form-preview__item">
+          <view class="weui-cell">
+            <view class="weui-cell__hd">收件人</view>
+            <view class="weui-cell__bd">{{item.contacts}}</view>
+          </view>
+          <view class="weui-cell">
+            <view class="weui-cell__hd">手机号：</view>
+            <view class="weui-cell__bd">{{item.phoneNum}}</view>
+          </view>
+          <view class="weui-cell">
+            <view class="weui-cell__hd">收货地址：</view>
+            <view class="weui-cell__bd">{{item.province}}{{item.city}}{{item.area}}</view>
+          </view>
+          <view class="weui-cell">
+            <view class="weui-cell__hd">详细地址：</view>
+            <view class="weui-cell__bd">{{item.addressDetail}}</view>
+          </view>
+           <view class="weui-cell">
+            <view class="weui-cell__hd">
+              <button class="weui-btn" type="primary" size="mini" bindtap="edit" data-ind="{{item.id}}">修改</button>
+            </view>
+            <view class="weui-cell__bd">
+              <button class="weui-btn" type="primary" size="mini" bindtap="del" data-ind="{{item.id}}">删除</button>
+            </view>
+          </view> 
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

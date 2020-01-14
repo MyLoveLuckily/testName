@@ -1,0 +1,90 @@
+@import '/app.wxss';
+.clear{
+  line-height: 20px;
+}
+.clearImg{
+  width:15px;
+  height:15px;
+}
+.clearText{
+  vertical-align: top;
+  display: inline-block;
+}
+.weui-demo-dialog{
+  visibility:hidden;
+  opacity:0;
+  transition:all .3s;
+}
+.weui-half-screen-dialog{
+  transition:all .3s;
+  transform:translateY(100%);
+}
+.weui-demo-dialog_show{
+  visibility:visible;
+  opacity:1;
+}
+.weui-demo-dialog_show .weui-half-screen-dialog{
+    transform:translateY(0);
+}
+.cellpPd{
+  padding:0;
+}
+.product{
+  line-height: 30px;
+  width:165px;
+}
+.productImg{
+  display: inline-block;
+}
+.productImage{
+  width: 30px;
+  height:30px;
+}
+.productText{
+  display: inline-block;
+  font-size: 12px;
+  margin-left:10px;
+  vertical-align: top;
+}
+.reduceBtn{
+  width:20px;
+  height:20px;
+  margin:0 5px;
+}
+.addBtn{
+  width:20px;
+  height:20px;
+  margin:0 5px;
+}
+.inlineBlock{
+  display: inline-block;
+}
+.verTop{
+  vertical-align: top;
+}
+.divWrap{ 
+width: 125px;
+overflow: hidden; 
+text-overflow: ellipsis; 
+white-space: nowrap;
+}
+
+.shoppingCarImg{
+  width:40px;
+  height:40px;
+}
+.orderPrice{
+  display: inline-block;
+  vertical-align: top;
+  line-height: 40px;
+  font-weight: bold;
+}
+.balance{
+  height:45px;
+  
+}
+.balanceBtn{
+  height:100%;
+  line-height:45px!important;
+}
+

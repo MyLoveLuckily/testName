@@ -1,0 +1,44 @@
+<view class="weui-cells mylist">
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src='./喜欢.png' class='img'></image>
+    </view>
+    <view class="weui-cell__bd myItem">我的订单</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src='./喜欢.png' class='img'></image>
+    </view>
+    <view class="weui-cell__bd myItem">我喜欢的</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+   <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src='./喜欢.png' class='img'></image>
+    </view>
+    <view class="weui-cell__bd myItem">我浏览的</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+   <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src='./订单.png' class='img'></image>
+    </view>
+    <view class="weui-cell__bd myItem">设置</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+     <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src='./订单.png' class='img'></image>
+    </view>
+    <view class="weui-cell__bd myItem">设置</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+     <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src='./订单.png' class='img'></image>
+    </view>
+    <view class="weui-cell__bd myItem">设置</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>

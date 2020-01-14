@@ -1,0 +1,17 @@
+
+<view class="container">
+  <view class="click">
+    <view class="item">
+      <view class="point" bindtap="addClick">+</view>
+    </view>
+    <view class="item">
+      <view class="point" bindtap="addClick">+</view>
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="cart">车</view>
+    <view class="add-cart" bindtap="addClick">加入购物车</view>
+  </view>
+ 
+  <view class="good_box" hidden="{{hide_good_box}}"  style="left: {{bus_x}}px; top: {{bus_y}}px;"></view>
+</view>

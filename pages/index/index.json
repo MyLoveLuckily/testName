@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "productCard": "/component/productCard/productCard",
+    "liveCommodity":"/component/liveCommodity/liveCommodity",
+    "shoppingCar": "/component/shoppingCar/shoppingCar",
+    "skuMore": "/component/skuMore/skuMore",
+    "my":"/component/my/my",
+    "orderInfo": "/component/orderInfo/orderInfo",
+    "productDetail": "/component/productDetail/productDetail",
+    "selectCustom": "/component/selectCustom/selectCustom"
+  }
+}

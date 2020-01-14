@@ -1,0 +1,43 @@
+<view class="page">
+  <view class="page__hd">
+  </view>
+  <view class='page__bd'>
+     <view class="weui-cell">
+        <view class="weui-cell__bd">收件人</view>
+        <view class="weui-cell__ft">
+          <input class="weui-input" type='text' bindinput='contacts' placeholder="请输入收件人姓名" value="{{addressInfo.contacts}}"/>
+        </view>
+      </view>
+      <view class="weui-cell">
+        <view class="weui-cell__bd">手机号：</view>
+        <view class="weui-cell__ft">
+          <input class="weui-input" type='number' bindinput='phoneNum' placeholder="请输入手机号" value="{{addressInfo.phoneNum}}" />
+        </view>
+      </view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <city-picker codes="{{codes}}" data="{{citylist}}" bind:select="onSelect">
+              <button class="weui-btn " size='mini'  type="primary">选择地址</button>
+            </city-picker>
+          </view>
+          <view class="weui-cell__ft">
+            {{addressInfo.province}}{{addressInfo.city}}{{addressInfo.area}}
+          </view>
+        </view>
+      </view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <input class="weui-input" type="text" bindinput="addressDetail" placeholder="请输入详细地址" value="{{addressInfo.addressDetail}}"/>
+          </view>
+        </view>
+      </view>
+  </view>
+  <view class="page__space"></view>
+  <view class="page__ft">
+    <view class="footerBar">
+      <button class="weui-btn mini-btn" type="primary" bindtap="edit">保存</button>
+    </view>
+  </view>
+</view>

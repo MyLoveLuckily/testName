@@ -1,0 +1,19 @@
+/* component/orderInfo/orderInfo.wxss */
+@import "/app.wxss";
+.orderInfo{
+  padding-left: 10px;
+}
+.orderTitle{
+  margin-bottom:10px;
+}
+.cellBd{
+  margin-left:30px;
+}
+.copyText{
+  color:orange;
+  margin-right:10px;
+}
+.orderInfoItem{
+  padding: 5px 0;
+  font-size: 12px;
+}

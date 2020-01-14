@@ -1,0 +1,50 @@
+{
+  "_from": "wx-city-picker",
+  "_id": "wx-city-picker@0.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-JWuEJgROYoM/ZssMkg7/Wg/QfspjaKXcvBLu5fljy8Y6/JWTzYEKuvnrsdb2dPwkNHPjuvHz41AULYSM2kpEqg==",
+  "_location": "/wx-city-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "wx-city-picker",
+    "name": "wx-city-picker",
+    "escapedName": "wx-city-picker",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wx-city-picker/-/wx-city-picker-0.0.6.tgz",
+  "_shasum": "110f347a1386cbeae18914b0060dc6e33e2be2af",
+  "_spec": "wx-city-picker",
+  "_where": "C:\\Users\\98701\\Desktop\\新建文件夹",
+  "author": {
+    "name": "staven",
+    "email": "20287710@qq.com",
+    "url": "http://github.com/staven630"
+  },
+  "bugs": {
+    "url": "https://github.com/staven630/wx-city-picker/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "小程序城市选择器， 省市区三级联动",
+  "homepage": "https://github.com/staven630/wx-city-picker#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wx-city-picker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staven630/wx-city-picker.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.6"
+}
